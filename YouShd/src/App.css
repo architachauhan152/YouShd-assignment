@@ -1,0 +1,408 @@
+.App {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* <=====Login Page======> */
+
+
+.loginBackground{
+  position:relative;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background: url(https://app-staging.youshd.com/static/media/background-image.f4123398e5165ddecdbf.png);
+  background-repeat: no-repeat;
+  margin-left: 40%;
+}
+.logoLoginPage{
+  margin-left: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 1.5rem;
+}
+.taglineLogin{
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-left: 5rem;
+  margin-bottom: 12vh;
+}
+.dogLoginPage{
+  margin-left: 9rem;
+  margin-bottom: 10vh;
+}
+.loginButton{
+  padding: 1rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  margin-left: 1.5rem;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.footerLink1{
+  margin-left: 1rem;
+}
+a{
+  color: black;
+}
+.footerLink2{
+  margin-left: 6rem;
+}
+
+
+
+/* <=====Number Page======> */
+
+
+
+.numPageHeading{
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 800;
+}
+.headingMain{
+  padding-top: 7vh;
+  margin-left: 1rem;
+  padding-bottom: 5vh;
+}
+.numInput{
+  width: 18%;
+  border: 1px solid gainsboro !important;
+  padding: 0.7rem !important;
+  border-radius: 10px;
+}
+.backContinue{
+  display: flex;
+  margin-top: 60vh;
+  flex-direction: row;
+}
+.numButton{
+  padding: 1rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  margin-left: 0.5rem;
+  border-radius: 12px;
+  border: none;
+  color: grey;
+  background-color: gainsboro;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  transition: .5s;
+}
+.numButton:hover{
+  transition: .5s;
+  color: white;
+  background-color: black;
+}
+.backButton{
+  padding: 0.5rem;
+  margin-left: 0.75rem;
+  border-radius: 10px;
+  background-color: white;
+  border:1px solid grey;
+}
+
+
+
+
+/* <======Otp Page=======> */
+
+
+
+.singleInput{
+  padding: 0.75rem;
+  width: 1rem;
+  border-radius: 8px;
+  border: 1px solid grey;
+  text-align: center;
+}
+.otpInputMain{
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  width: 21%;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+.backContinueOtp{
+  display: flex;
+  margin-top: 50vh;
+  flex-direction: row;
+}
+
+
+
+/* <======social media page ========> */
+
+
+
+.insta-icon{
+    background: url(https://app-staging.youshd.com/static/media/instagram%20special.ea0349366f4e3e613be6.svg);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+}
+.socialMain{
+  margin-bottom: 1rem;
+  width: 21%;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid gainsboro;
+
+}
+.socialHead{
+  margin-top: 2rem;
+  margin-bottom: 48vh;
+}
+.social-name{
+  margin-top: 0.7rem;
+  margin-left: 1rem;
+  font-weight: 700;
+}
+.tiktok-icon{
+    background: url(https://app-staging.youshd.com/static/media/tik%20tok%20special.367695f3836dbae2517d.svg);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+}
+.skipButton{
+  padding: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background-color: white;
+  border: 1px solid black;
+}
+.continueButton{
+  padding: 1rem;
+  padding-left: 3.3rem;
+  padding-right: 3.3rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+.skip-continue{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+/* <====== dashboard page ========> */
+
+
+
+.dashMain{
+  width: 26%;
+  background-repeat: no-repeat;
+  margin-left: 40%;
+  border-radius: 20px;
+  border-bottom: 1px solid #e3caff;
+  margin-bottom:3rem;
+}
+.logoDash{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+.menuDash{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.logo-menu{
+  display: flex;
+  flex-direction: row;
+}
+.navMain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.walletDash{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.navDiv{
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.socialMainDash{
+  margin-bottom: 1rem;
+  width: 95%;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid gainsboro;
+}
+.socialHeadDash{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+.walletCard{
+  background: linear-gradient( 106.67deg, #c0edff -7.16%, #e3caff 13.58%, #f4edff 51.96%, #ffedff 91.55% );
+  padding: 2rem;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+}
+.totalEarn{
+  font-size: 1rem;
+  color: grey;
+}
+.totalAmt{
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+}
+.walletCardSub{
+  background: rgba(108, 67, 155, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+}
+.walletSubAmt{
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+.walletSubEarn{
+  font-size: 0.8rem;
+}
+.myProdHead{
+  background: linear-gradient( 106.67deg, #c0edff -7.16%, #e3caff 13.58%, #f4edff 51.96%, #ffedff 91.55% );
+  padding: 1rem;
+  border-top-left-radius: 16px;
+  border-top-right-radius:16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.productHeading{
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+.prodSubHeading{
+  font-size: 1.2rem;
+  font-weight: 700;
+
+}
+.prodContent{
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.prodArrowIconDiv{
+    background-image: url(https://app-staging.youshd.com/static/media/lock.f97dfdca31b89618c418.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.giftImg{
+  margin-top: 1rem;
+  text-align: center;
+}
+.dashSubMain{
+  border-radius: 20px;
+  border-bottom: 1px solid #e3caff;
+}
+
+
+/* sidebar */
+
+
+.sidebar{
+  position: absolute;
+  background-color: white;
+  color: black;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 180px;
+  transform: translateX(-400%);
+  margin-left: 40%;
+  transition: all 0.4s;
+}
+.sidebar li{
+  list-style: none;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.sidebar li:hover{
+  background-color:#e3caff ;
+}
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 40%;
+  width: 26%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+.sidebar--open{
+  transform: translateX(0%
+  );
+}
+.backdrop--open{
+  display: block;
+}
